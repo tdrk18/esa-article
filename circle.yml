@@ -4,7 +4,7 @@ machine:
 
   ruby:
     version:
-      ruby 2.3.1p112
+      ruby 2.3.0
 
 test:
   override:
