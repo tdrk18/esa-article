@@ -69,5 +69,4 @@ if __FILE__ == $0
   exit if title == "" or body == ""
   write_json_to_file "script/article.json", hash
 
-  # write_json_to_file 'script/article.json', json
 end
