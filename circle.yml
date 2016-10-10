@@ -2,7 +2,10 @@ machine:
   timezone:
     Asia/Tokyo
 
-deployment:
-    branch: master
-    commands:
-        - sh script/post-qiita.sh
+  ruby:
+    version:
+      ruby 2.3.1p112
+
+test:
+  override:
+    - sh script/post-qiita.sh
