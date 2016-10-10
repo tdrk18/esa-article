@@ -1,0 +1,8 @@
+machine:
+  timezone:
+    Asia/Tokyo
+
+deployment:
+    branch: master
+    commands:
+        - sh script/post-qiita.sh
