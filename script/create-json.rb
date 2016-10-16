@@ -18,7 +18,7 @@ def create_hash title, tags, body
   "coediting": false,
   "gist": false,
   "private": false,
-  "tweet": false
+  "tweet": true
   }
   hash["title"] = title
   hash["tags"] = []
