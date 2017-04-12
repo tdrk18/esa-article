@@ -5,3 +5,4 @@ machine:
 test:
   override:
     - sh script/post-qiita.sh
+    - sh script/post-slack.sh
